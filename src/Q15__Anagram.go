@@ -19,25 +19,25 @@ func main() {
 	stringA = "apple"
 	stringB = "elppa"
 
-	stringASlice := []string{}
-	stringBSlice := []string{}
+	listStringA := []string{}
+	listStringB := []string{}
 
 	for _, char := range stringA {
-		stringASlice = append(stringASlice, string(char))
+		listStringA = append(listStringA, string(char))
 	}
 	for _, char := range stringB {
-		stringBSlice = append(stringBSlice, string(char))
+		listStringB = append(listStringB, string(char))
 	}
 
-	sort.Strings(stringASlice)
-	sort.Strings(stringBSlice)
+	sort.Strings(listStringA)
+	sort.Strings(listStringB)
 
 	answer := false
-	if reflect.DeepEqual(stringASlice, stringBSlice) {
+	if reflect.DeepEqual(listStringA, listStringB) {
 		answer = true
 	}
 
-	fmt.Println(stringASlice)
-	fmt.Println(stringBSlice)
+	fmt.Println(listStringA)
+	fmt.Println(listStringB)
 	fmt.Println(answer)
 }
