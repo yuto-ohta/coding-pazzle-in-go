@@ -1,3 +1,7 @@
 # coding-pazzle-in-go
 
-ネットに落ちてるコーディング問題をやったら上げる
+## ■What is
+
+* （更新停止中）
+* コーディング問題を解く
+  * https://yukicoder.me/
