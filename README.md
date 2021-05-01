@@ -2,6 +2,5 @@
 
 ## ■What is
 
-* （更新停止中）
-* コーディング問題を解く
-  * https://yukicoder.me/
+- コーディング問題を解く
+  - https://yukicoder.me/
